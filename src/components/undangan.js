@@ -2,7 +2,7 @@ import React from "react";
 
 const Undangan = () => {
   return (
-    <div className="bg-black max-w-md mx-auto pb-10">
+    <div className="bg-black max-w-md mx-auto">
       <div className="flex flex-col">
         <div className="flex flex-wrap justify-between">
           <img src="./images/top_l.png" alt="" className="w-28 h-28" />
@@ -49,6 +49,46 @@ const Undangan = () => {
           <h1 className="text-white text-center mt-16 font-pacifico font-bold text-5xl">
             &
           </h1>
+        </div>
+        <div className="mx-auto">
+          <h3 className="text-yellow-700 text-center mt-16 text-3xl font-pacifico font-bold">
+            Ngunduh Mantu
+          </h3>
+          <h5 className="text-white text-[1.45rem] text-center mt-3 font-pacifico">
+            Rabu 30 September 2020
+          </h5>
+          <h6 className="text-white text-center">08.00 s.d selesai</h6>
+          <p className="text-white text-center text-md px-16">
+            Fasilitas ini untuk anda yang mempunyai acara tambahan diluar acara
+            Akad Nikah dan Resepsi, akan ada kotak/section tambahan di website
+            nikah anda
+          </p>
+          <h3 className="text-yellow-700 text-center mt-5 text-3xl font-pacifico font-semibold">
+            Turut Mengundang
+          </h3>
+          <p className="text-white text-center text-md px-14 mt-3">
+            Fasilitas ini digunakan untuk memberikan informasi yang lengkap
+            tentang profile dari Mempelai Pria, silahkan masukan dengan lengkap
+            dan jelas berikut dengan foto yang berkualitas bagus. Fasilitas ini
+            digunakan untuk memberikan informasi yang lengkap tentang profile
+            dari Mempelai Pria, silahkan masukan dengan lengkap dan jelas
+            berikut dengan foto yang berkualitas bagus.
+          </p>
+          <h3 className="text-yellow-700 text-center mt-5 text-3xl font-pacifico font-semibold">
+            Catatan
+          </h3>
+          <p className="text-white text-center text-md px-14 mt-3 mb-5">
+            Fasilitas ini digunakan untuk memberikan informasi yang lengkap
+            tentang profile dari Mempelai Pria, silahkan masukan dengan lengkap
+            dan jelas berikut dengan foto yang berkualitas bagus. Fasilitas ini
+            digunakan untuk memberikan informasi yang lengkap tentang profile
+            dari Mempelai Pria, silahkan masukan dengan lengkap dan jelas
+            berikut dengan foto yang berkualitas bagus.
+          </p>
+        </div>
+        <div className="flex flex-wrap justify-between">
+          <img src="./images/bottom_l.png" alt="" className="w-28 h-28" />
+          <img src="./images/bottom_r.png" alt="" className="w-28 h-28" />
         </div>
       </div>
     </div>
