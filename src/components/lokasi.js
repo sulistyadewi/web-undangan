@@ -2,7 +2,7 @@ import React from "react";
 
 const Lokasi = () => {
   return (
-    <div className="bg-black max-w-md mx-auto ">
+    <div id="lokasi-section" className="bg-black max-w-md mx-auto ">
       <div className="flex flex-col">
         <div className="flex flex-wrap justify-between">
           <img src="./images/top_l.png" alt="" className="w-28 h-28" />

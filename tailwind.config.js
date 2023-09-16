@@ -5,9 +5,13 @@ module.exports = {
     extend: {
       fontFamily: {
         pacifico: "Pacifico",
+        merriweather: "Merriweather",
       },
       backgroundImage: {
         "home-image": "url('/images/photo-2.jpg')",
+      },
+      colors: {
+        gold: "#B8860B",
       },
     },
   },
