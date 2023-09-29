@@ -1,6 +1,8 @@
 import React from "react";
 
-const Home = () => {
+const Home = (props) => {
+  const targetDays = new Date("2023-09-20");
+  targetDays.setHours(0, 0, 0, 0);
   return (
     <div id="home-section" className="max-w-md mx-auto h-screen">
       <div className="bg-center h-screen bg-no-repeat bg-cover bg-blend-multiply bg-zinc-800 max-w-md overflow-hidden relative">
@@ -14,14 +16,35 @@ const Home = () => {
             Adi | Rara
           </h1>
           <img src="./images/bawahh.png" alt="" className="mx-auto w-80" />
-          <h6 className="text-white text-center mt-10 text-lg">Kepada:</h6>
-          <h5 className="text-yellow-700 text-center text-xl font-pacifico py-5">
+          <h6 className="text-white text-center mt-5 text-lg">Kepada:</h6>
+          <h5 className="text-yellow-700 text-center text-xl font-pacifico py-2">
             Budi & Ani
           </h5>
           <h6 className="text-white text-center text-lg">Di Bandung</h6>
-          <button className="text-white bg-yellow-400 mx-auto p-2 mt-5 rounded-lg hover:bg-white hover:text-black">
+          <button
+            onClick={props.buttonClick}
+            className="text-white bg-yellow-400 mx-auto p-2 mt-5 rounded-lg hover:bg-white hover:text-black"
+          >
             Buka Undangan
           </button>
+        </div>
+        <div className="flex justify-center gap-3 mt-5">
+          <div className="bg-yellow-600 w-12 h-12 rounded-lg flex flex-col items-center justify-center">
+            <h1 className="text-white text-lg p-0 -mb-1">00</h1>
+            <small className="text-white">Days</small>
+          </div>
+          <div className="bg-yellow-600 w-12 h-12 rounded-lg flex flex-col items-center justify-center">
+            <h1 className="text-white text-lg p-0 -mb-1">00</h1>
+            <small className="text-white">Hours</small>
+          </div>
+          <div className="bg-yellow-600 w-12 h-12 rounded-lg flex flex-col items-center justify-center">
+            <h1 className="text-white text-lg p-0 -mb-1">00</h1>
+            <small className="text-white">Min</small>
+          </div>
+          <div className="bg-yellow-600 w-12 h-12 rounded-lg flex flex-col items-center justify-center">
+            <h1 className="text-white text-lg p-0 -mb-1">00</h1>
+            <small className="text-white">Sec</small>
+          </div>
         </div>
         <img
           src="./images/bottom_l.png"
