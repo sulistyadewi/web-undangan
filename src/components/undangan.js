@@ -1,11 +1,14 @@
-import React from "react";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Undangan = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div id="undangan-section" className="bg-black max-w-md mx-auto">
-      <div className="flex flex-col ">
+      <div data-aos="fade-up" className="flex flex-col ">
         <div className="flex flex-wrap justify-between">
           <img src="./images/top_l.png" alt="" className="w-28 h-28 " />
           <img src="./images/top_r.png" alt="" className="w-28 h-28" />
@@ -34,7 +37,7 @@ const Undangan = () => {
             Rabu, 17 Agustus <br /> 2022
           </h4>
         </div>
-        <div className="flex flex-wrap justify-between">
+        <div data-aos="fade-down" className="flex flex-wrap justify-between">
           <img src="./images/bottom_l.png" alt="" className="w-28 h-28 " />
           <img src="./images/bottom_r.png" alt="" className="w-28 h-28" />
         </div>

@@ -24,10 +24,16 @@ const Ucapan = (props) => {
       className="bg-black max-w-md mx-auto pb-10 relative"
     >
       <div className="pt-32 pb-20 ">
-        <h1 className="text-white text-center text-4xl font-pacifico font-bold">
+        <h1
+          data-aos="fade-up"
+          className="text-white text-center text-4xl font-pacifico font-bold"
+        >
           Doa dan Ucapan
         </h1>
-        <p className="text-white text-center px-14 mt-7 text-[1.05rem]">
+        <p
+          data-aos="fade-up"
+          className="text-white text-center px-14 mt-7 text-[1.05rem]"
+        >
           Tuliskan sesuatu ucapan berupa harapan ataupun doa untuk kedua
           mempelai.
         </p>

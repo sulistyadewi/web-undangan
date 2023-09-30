@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = (props) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const targetDays = new Date("2023-09-20");
   targetDays.setHours(0, 0, 0, 0);
   return (
     <div id="home-section" className="max-w-md mx-auto h-screen">
       <div className="bg-center h-screen bg-no-repeat bg-cover bg-blend-multiply bg-zinc-800 max-w-md overflow-hidden relative">
-        <div className="flex flex-wrap justify-between ">
+        <div data-aos="fade-up" className="flex flex-wrap justify-between ">
           <img src="./images/top_l.png" alt="" className="w-28 h-28" />
           <img src="./images/top_r.png" alt="" className="w-28 h-28" />
         </div>
@@ -46,16 +51,18 @@ const Home = (props) => {
             <small className="text-white">Sec</small>
           </div>
         </div>
-        <img
-          src="./images/bottom_l.png"
-          alt=""
-          className="w-28 h-28 absolute bottom-0 left-0"
-        />
-        <img
-          src="./images/bottom_r.png"
-          alt=""
-          className="w-28 h-28 absolute bottom-0 right-0"
-        />
+        <div data-aos="fade-down">
+          <img
+            src="./images/bottom_l.png"
+            alt=""
+            className="w-28 h-28 absolute bottom-0 left-0"
+          />
+          <img
+            src="./images/bottom_r.png"
+            alt=""
+            className="w-28 h-28 absolute bottom-0 right-0"
+          />
+        </div>
       </div>
     </div>
   );
