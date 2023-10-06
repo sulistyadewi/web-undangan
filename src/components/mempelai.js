@@ -9,31 +9,40 @@ const Mempelai = () => {
   return (
     <div id="mempelai-section" className="bg-black max-w-md mx-auto">
       <div className="flex flex-col">
-        <div data-aos="fade-up" className="flex flex-wrap justify-between">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="80"
+          className="flex flex-wrap justify-between"
+        >
           <img src="./images/top_l.png" alt="" className="w-28 h-28" />
           <img src="./images/top_r.png" alt="" className="w-28 h-28" />
         </div>
         <div id="pria" className="mx-auto">
-          <div data-aos="fade-down">
+          <div data-aos="fade-down" data-aos-delay="80">
             <img
               src="./images/photo-m.jpg"
               alt=""
               className="w-44 h-w-44 rounded-full mx-auto"
             />
-            <h3 className="text-center mt-5 font-pacifico text-3xl text-yellow-700">
+            <h3 className="text-center mt-5 font-pacifico text-3xl text-gold">
               Adi Sumaryadi
             </h3>
           </div>
-          <h4 data-aos="zoom-in" className="text-white text-center text-lg">
+          <h4
+            data-aos="zoom-in"
+            data-aos-delay="80"
+            className="text-white text-center text-lg"
+          >
             Putra dari Sumarmo & Kantun
           </h4>
           <img
             data-aos="fade-up"
+            data-aos-delay="80"
             src="./images/hr.png"
             alt=""
             className="mx-auto w-44 mt-4"
           />
-          <div data-aos="fade-up">
+          <div data-aos="fade-up" data-aos-delay="80">
             <p className="text-white text-center mt-3 px-14 text-md leading-snug">
               Fasilitas ini digunakan untuk memberikan informasi yang lengkap
               tentang profile dari Mempelai Pria, silahkan masukan dengan
@@ -56,26 +65,31 @@ const Mempelai = () => {
           </h1>
         </div>
         <div id="wanita" className="mx-auto">
-          <div data-aos="fade-down">
+          <div data-aos="fade-down" data-aos-delay="80">
             <img
               src="./images/photo-w.jpg"
               alt=""
               className="w-44 h-w-44 rounded-full mx-auto mt-16"
             />
-            <h3 className="text-center mt-5 font-pacifico text-3xl text-yellow-700">
+            <h3 className="text-center mt-5 font-pacifico text-3xl text-gold">
               Siti Salamah Azzahra
             </h3>
           </div>
-          <h4 data-aos="zoom-in" className="text-white text-center text-lg">
+          <h4
+            data-aos="zoom-in"
+            data-aos-delay="80"
+            className="text-white text-center text-lg"
+          >
             Putri dari Maman & Imas
           </h4>
           <img
             data-aos="fade-up"
+            data-aos-delay="80"
             src="./images/hr.png"
             alt=""
             className="mx-auto w-44 mt-4"
           />
-          <div data-aos="fade-up">
+          <div data-aos="fade-up" data-aos-delay="80">
             <p className="text-white text-center mt-3 px-14 text-md leading-snug">
               Maha kuasa Allah yang telah mempertemukan kami dalam sebuah moment
               yang tak direncanakan bertemu pada awal tahun 2012 lalu, wajah
@@ -95,7 +109,11 @@ const Mempelai = () => {
             </p>
           </div>
         </div>
-        <div data-aos="fade-down" className="flex flex-wrap justify-between">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="80"
+          className="flex flex-wrap justify-between"
+        >
           <img src="./images/bottom_l.png" alt="" className="w-28 h-28" />
           <img src="./images/bottom_r.png" alt="" className="w-28 h-28" />
         </div>

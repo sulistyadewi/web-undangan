@@ -38,14 +38,14 @@ const Ucapan = (props) => {
           mempelai.
         </p>
         <h4 className="text-white text-center text-2xl mt-5 font-pacifico font-bold">
-          Adi <span className="text-yellow-700"> &</span> Rara
+          Adi <span className="text-gold"> &</span> Rara
         </h4>
         <div className="flex justify-center mt-10">
-          <button className="bg-yellow-500 text-white ring-2 ring-white px-2 py-2 rounded-lg hover:bg-white hover:text-black z-50">
+          <button className="bg-gold text-white ring-2 ring-white px-2 py-2 rounded-lg hover:bg-white hover:text-black z-50">
             Kirim doa dan ucapan
           </button>
         </div>
-        <div className="bg-white mt-10 max-w-xs rounded-md px-6 py-6 mx-auto ring-yellow-700">
+        <div className="bg-white mt-10 max-w-xs rounded-md px-6 py-6 mx-auto ring-gold">
           <form onSubmit={submited}>
             <div className="flex flex-col">
               <label>Nama</label>
@@ -54,7 +54,7 @@ const Ucapan = (props) => {
                 value={ucapan.name || ""}
                 required={true}
                 name="name"
-                className="h-12 p-2 rounded mt-3 bg-gray-300 ring-yellow-700"
+                className="h-12 p-2 rounded mt-3 bg-gray-300 ring-gold"
                 onChange={handleInputChanged}
               />
             </div>
@@ -67,14 +67,14 @@ const Ucapan = (props) => {
                 rows={8}
                 value={ucapan.ucapan || ""}
                 required={true}
-                className="p-3 mt-3 rounded bg-gray-300 ring-yellow-700"
+                className="p-3 mt-3 rounded bg-gray-300 ring-gold"
                 onChange={handleInputChanged}
               ></textarea>
             </div>
             <div>
               <button
                 type="submit"
-                className="bg-yellow-700 text-white py-2 px-5 mt-4 rounded"
+                className="bg-gold text-white py-2 px-5 mt-4 rounded"
               >
                 Kirim
               </button>

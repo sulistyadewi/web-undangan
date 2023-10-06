@@ -11,6 +11,7 @@ import Video from "./components/video";
 import Protokol from "./components/protokol";
 import Ucapan from "./components/ucapan";
 import Hasil from "./components/hasil";
+import Menu from "./components/menu";
 
 const App = () => {
   const [show, setShow] = useState(true);
@@ -41,6 +42,7 @@ const App = () => {
   return (
     <div>
       {show && <Home buttonClick={buttonClick} />}
+      {!show && <Menu />}
       {!show && <Undangan />}
       {!show && <Mempelai />}
       {!show && <Acara />}
@@ -51,7 +53,7 @@ const App = () => {
       {!show && <Video />}
       {!show && <Protokol />}
       {!show && <Ucapan addUcapan={addUcapan} />}
-      {!show && <Hasil dataUcapan={dataUcapan} />}
+      {!show && <Hasil dataUcapan={ucapans} />}
     </div>
   );
 };

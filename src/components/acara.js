@@ -9,26 +9,32 @@ const Acara = () => {
   return (
     <div id="acara-section" className="bg-black max-w-md mx-auto">
       <div className="flex flex-col">
-        <div data-aos="fade-up" className="flex flex-wrap justify-between">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="80"
+          className="flex flex-wrap justify-between"
+        >
           <img src="./images/top_l.png" alt="" className="w-28 h-28" />
           <img src="./images/top_r.png" alt="" className="w-28 h-28" />
         </div>
         <div className="mx-auto">
           <h3
             data-aos="fade-up"
+            data-aos-delay="80"
             className="text-white text-center mt-5 text-3xl font-pacifico font-bold"
           >
             Undangan dan Acara
           </h3>
           <p
             data-aos="fade-up"
+            data-aos-delay="80"
             className="text-white text-center mt-12 px-14 text-lg"
           >
             Dengan Rahmat Allah yang Maha Kuasa InsyaAllah kami akan
             melangsungkan pernikahan pada:
           </p>
-          <div data-aos="fade-up" className="mt-12">
-            <h3 className="text-yellow-700 text-center font-pacifico text-3xl font-semibold">
+          <div data-aos="fade-up" data-aos-delay="80" className="mt-12">
+            <h3 className="text-gold text-center font-pacifico text-3xl font-semibold">
               Akad Nikah 1
             </h3>
             <img src="./images/hr.png" alt="" className="mx-auto w-44 mt-4" />
@@ -43,7 +49,7 @@ const Acara = () => {
             </h5>
           </div>
           <div className="flex justify-center">
-            <button className="bg-yellow-700 text-white px-3 py-2 rounded-lg ring-2 ring-white mt-16 flex text-md hover:bg-white hover:text-black">
+            <button className="bg-gold text-white px-3 py-2 rounded-lg ring-2 ring-white mt-16 flex text-md hover:bg-white hover:text-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -64,8 +70,8 @@ const Acara = () => {
           <h1 className="text-white text-center mt-10 font-pacifico font-bold text-5xl">
             &
           </h1>
-          <div data-aos="fade-up" className="mt-12">
-            <h3 className="text-yellow-700 text-center mt-12 font-pacifico text-3xl font-semibold">
+          <div data-aos="fade-up" data-aos-delay="80" className="mt-12">
+            <h3 className="text-gold text-center mt-12 font-pacifico text-3xl font-semibold">
               Resepsi 1
             </h3>
             <img src="./images/hr.png" alt="" className="mx-auto w-44 mt-4" />
@@ -80,7 +86,7 @@ const Acara = () => {
             </h5>
           </div>
           <div className="flex justify-center mt-8">
-            <button className="bg-yellow-700 text-white px-3 py-2 rounded-lg ring-2 ring-white mt-16 flex text-md hover:bg-white hover:text-black">
+            <button className="bg-gold text-white px-3 py-2 rounded-lg ring-2 ring-white mt-16 flex text-md hover:bg-white hover:text-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -100,8 +106,8 @@ const Acara = () => {
           </div>
         </div>
         <div className="mx-auto">
-          <div data-aos="fade-up">
-            <h3 className="text-yellow-700 text-center mt-16 text-3xl font-pacifico font-bold">
+          <div data-aos="fade-up" data-aos-delay="80">
+            <h3 className="text-gold text-center mt-16 text-3xl font-pacifico font-bold">
               Ngunduh Mantu
             </h3>
             <h5 className="text-white text-[1.45rem] text-center mt-3 font-pacifico">
@@ -114,8 +120,8 @@ const Acara = () => {
               website nikah anda
             </p>
           </div>
-          <div data-aos="fade-up">
-            <h3 className="text-yellow-700 text-center mt-5 text-3xl font-pacifico font-semibold">
+          <div data-aos="fade-up" data-aos-delay="80">
+            <h3 className="text-gold text-center mt-5 text-3xl font-pacifico font-semibold">
               Turut Mengundang
             </h3>
             <p className="text-white text-center text-md px-14 mt-3">
@@ -127,8 +133,8 @@ const Acara = () => {
               lengkap dan jelas berikut dengan foto yang berkualitas bagus.
             </p>
           </div>
-          <div data-aos="fade-up">
-            <h3 className="text-yellow-700 text-center mt-5 text-3xl font-pacifico font-semibold">
+          <div data-aos="fade-up" data-aos-delay="80">
+            <h3 className="text-gold text-center mt-5 text-3xl font-pacifico font-semibold">
               Catatan
             </h3>
             <p className="text-white text-center text-md px-14 mt-3 mb-5">
@@ -141,7 +147,11 @@ const Acara = () => {
             </p>
           </div>
         </div>
-        <div data-aos="fade-down" className="flex flex-wrap justify-between">
+        <div
+          data-aos="fade-down"
+          data-aos-delay="80"
+          className="flex flex-wrap justify-between"
+        >
           <img src="./images/bottom_l.png" alt="" className="w-28 h-28" />
           <img src="./images/bottom_r.png" alt="" className="w-28 h-28" />
         </div>

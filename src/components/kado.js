@@ -8,7 +8,11 @@ const Kado = () => {
   }, []);
   return (
     <div id="kado-section" className="bg-black max-w-md mx-auto">
-      <div data-aos="fade-up" className="flex flex-wrap justify-between">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="80"
+        className="flex flex-wrap justify-between"
+      >
         <img src="./images/top_l.png" alt="" className="w-28 h-28" />
         <img src="./images/top_r.png" alt="" className="w-28 h-28" />
       </div>
@@ -25,6 +29,7 @@ const Kado = () => {
       <div>
         <img
           data-aos="fade-up"
+          data-aos-delay="80"
           src="./images/mandiri-s.png"
           alt=""
           className="max-w-[21.5rem] bg-white mx-auto p-6 mt-10"
@@ -42,7 +47,7 @@ const Kado = () => {
           123456789
         </p>
         <div className="flex justify-center">
-          <button className="bg-yellow-500 text-white px-3 py-2 rounded-lg ring-2 ring-white mt-5 flex hover:bg-white hover:text-black">
+          <button className="bg-gold text-white px-3 py-2 rounded-lg ring-2 ring-white mt-5 flex hover:bg-white hover:text-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -62,6 +67,7 @@ const Kado = () => {
         </div>
         <img
           data-aos="fade-up"
+          data-aos-delay="80"
           src="./images/mandiri.png"
           alt=""
           className="m
@@ -80,7 +86,7 @@ const Kado = () => {
           123456789
         </p>
         <div className="flex justify-center">
-          <button className="bg-yellow-500 text-white px-3 py-2 rounded-lg ring-2 ring-white mt-5 flex hover:bg-white hover:text-black">
+          <button className="bg-gold text-white px-3 py-2 rounded-lg ring-2 ring-white mt-5 flex hover:bg-white hover:text-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -103,7 +109,11 @@ const Kado = () => {
           Saweria kami. Atau melalui Nomor Rekening Bank Mandiri 1320006284864
         </p>
       </div>
-      <div data-aos="fade-down" className="flex flex-wrap justify-between">
+      <div
+        data-aos="fade-down"
+        data-aos-delay="80"
+        className="flex flex-wrap justify-between"
+      >
         <img src="./images/bottom_l.png" alt="" className="w-28 h-28" />
         <img src="./images/bottom_r.png" alt="" className="w-28 h-28" />
       </div>

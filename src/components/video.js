@@ -8,7 +8,11 @@ const Video = () => {
   }, []);
   return (
     <div id="video-section" className="bg-black max-w-md mx-auto">
-      <div data-aos="fade-up" className="flex flex-wrap justify-between">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="80"
+        className="flex flex-wrap justify-between"
+      >
         <img src="./images/top_l.png" alt="" className="w-28 h-28" />
         <img src="./images/top_r.png" alt="" className="w-28 h-28" />
       </div>
@@ -21,6 +25,7 @@ const Video = () => {
         </p>
         <iframe
           data-aos="fade-up"
+          data-aos-delay="80"
           className="mx-auto mt-10 mb-10"
           width="320"
           height="180"
@@ -31,7 +36,11 @@ const Video = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <div data-aos="fade-down" className="flex flex-wrap justify-between">
+      <div
+        data-aos="fade-down"
+        data-aos-delay="80"
+        className="flex flex-wrap justify-between"
+      >
         <img src="./images/bottom_l.png" alt="" className="w-28 h-28" />
         <img src="./images/bottom_r.png" alt="" className="w-28 h-28" />
       </div>

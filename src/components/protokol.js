@@ -8,7 +8,11 @@ const Protokol = () => {
   }, []);
   return (
     <div id="protokol-section" className="bg-black max-w-md mx-auto relative">
-      <div data-aos="fade-up" className="flex flex-wrap justify-between">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="80"
+        className="flex flex-wrap justify-between"
+      >
         <img src="./images/top_l.png" alt="" className="w-28 h-28" />
         <img src="./images/top_r.png" alt="" className="w-28 h-28" />
       </div>

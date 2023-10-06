@@ -11,7 +11,7 @@ module.exports = {
         "home-image": "url('/images/photo-2.jpg')",
       },
       colors: {
-        gold: "#B8860B",
+        gold: "#C4B454",
       },
     },
   },
